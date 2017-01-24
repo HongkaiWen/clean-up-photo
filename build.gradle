@@ -32,11 +32,9 @@ configurations {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-mobile')
-//	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.2.0')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('net.sourceforge.nekohtml:nekohtml:1.9.22')
-//	runtime('mysql:mysql-connector-java')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
